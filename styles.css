@@ -9,7 +9,8 @@ body {
   width: 100%;
   min-height: 100vh;
   /* background-color: #4e54c8; */
-  background-color: #f4dacd;
+  /* background-color: #f4dacd; */
+  background-color: #05386b;
   overflow-x: hidden;
   display: flex;
   justify-content: center;
@@ -38,6 +39,9 @@ body {
 }
 .inline-block {
   display: inline-block;
+}
+.weight-bold {
+  font-weight: bold;
 }
 /* //////////////////////////// */
 .button-89 {
@@ -121,7 +125,7 @@ body {
   border: 1px solid lightgray;
   padding: 3rem 1.5rem;
   text-align: center;
-  background-color: #fafaeb;
+  background-color: #edf5e1;
 
   /* display: flex; */
   /* flex-direction: column; */
@@ -148,7 +152,7 @@ body {
 
 .tagline {
   margin-top: 2px;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 img {
