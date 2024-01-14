@@ -121,7 +121,7 @@ body {
   border: 1px solid lightgray;
   padding: 3rem 1.5rem;
   text-align: center;
-  background-color: white;
+  background-color: #fafaeb;
 
   /* display: flex; */
   /* flex-direction: column; */
@@ -293,7 +293,7 @@ img {
   border-radius: 10px;
   backface-visibility: hidden;
   overflow: hidden;
-  background: #ffc728;
+  /* background: #ffc728; */
   color: #000;
 }
 
