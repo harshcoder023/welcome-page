@@ -226,6 +226,9 @@ img {
 .waviy {
   position: relative;
 }
+.waviy .size-medium {
+  font-size: 26px;
+}
 .waviy span {
   position: relative;
   display: inline-block;
