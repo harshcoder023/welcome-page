@@ -284,7 +284,7 @@ body {
 .maincontainer {
   /* position: absolute; */
   width: 600px;
-  height: 520px;
+  height: 510px;
   background: none;
   /* top: 50%; */
   /* left: 50%; */
@@ -391,7 +391,7 @@ body {
 }
 @media screen and (max-width: 475px) {
   .maincontainer {
-    height: 530px;
+    height: 510px;
   }
   .event-wrapper {
     padding: 2rem 1rem;
