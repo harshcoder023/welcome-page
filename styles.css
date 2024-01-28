@@ -155,15 +155,34 @@ body {
   font-size: 16px;
 }
 
-img {
-  max-width: 100%;
-  width: 80px;
-  height: auto;
+.college {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
+.logos {
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 0.5rem;
+}
 .logo {
+  width: 80px;
   display: flex;
   justify-content: center;
+}
+.nba-logo {
+  width: 50px;
+  align-self: last baseline;
+}
+.nba-logo img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+.logo img {
+  width: 100%;
+  object-fit: cover;
 }
 
 .btn-action {
@@ -265,7 +284,7 @@ img {
 .maincontainer {
   /* position: absolute; */
   width: 600px;
-  height: 550px;
+  height: 520px;
   background: none;
   /* top: 50%; */
   /* left: 50%; */
@@ -321,6 +340,7 @@ img {
   /* padding: 3rem 1.5rem; */
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1rem;
 }
 .college-location {
@@ -334,6 +354,7 @@ img {
   gap: 1rem;
   background-color: #f1f1e6;
   padding-block: 1rem;
+  width: 100%;
 }
 .host-img {
   width: 80px;
@@ -342,6 +363,7 @@ img {
   overflow: hidden;
 }
 .host-img img {
+  width: 100%;
   object-fit: cover;
   object-position: center;
 }
