@@ -45,7 +45,7 @@ body {
 }
 /* //////////////////////////// */
 .button-89 {
-  --b: 3px; /* border thickness */
+  --b: 2px; /* border thickness */
   --s: 0.45em; /* size of the corner */
   --color: #373b44;
 
@@ -62,7 +62,7 @@ body {
   transition: 0.3s linear, color 0s, background-color 0s;
   outline: var(--b) solid #0000;
   outline-offset: 0.6em;
-  font-size: 16px;
+  font-size: 14px;
 
   border: 0;
 
@@ -226,13 +226,12 @@ img {
 .waviy {
   position: relative;
 }
-.waviy .size-medium {
-  font-size: 26px;
-}
+
 .waviy span {
   position: relative;
   display: inline-block;
-  font-size: 40px;
+  font-size: 28px;
+  letter-spacing: -1px;
   color: black;
   text-transform: uppercase;
   /* letter-spacing: 2px; */
@@ -266,7 +265,7 @@ img {
 .maincontainer {
   /* position: absolute; */
   width: 600px;
-  height: 610px;
+  height: 550px;
   background: none;
   /* top: 50%; */
   /* left: 50%; */
@@ -326,7 +325,7 @@ img {
 
 @media screen and (max-width: 475px) {
   .maincontainer {
-    height: 615px;
+    height: 530px;
   }
   .event-wrapper {
     padding: 2rem 1rem;
